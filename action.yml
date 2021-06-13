@@ -22,7 +22,7 @@ inputs:
     required: false
     default: 'comment'
   labels:
-    description: 'Comma-separated list of labels.'
+    description: 'Comma-separated list of labels with optional module name filter: <label>[:<module-name>[;<module-name>[;...]]]'
     required: false
     default: 'none'
   dnm-labels:
